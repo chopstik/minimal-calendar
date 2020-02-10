@@ -35,3 +35,5 @@ Ensure your OS has a print size to match the intended output: A0, A1, A2, A3 or 
 - Based on an idea by [@nickolaspeter](https://www.kickstarter.com/projects/nickolaspeter/a-hyper-minimal-calendar-for-2020)
 - [HTML5Boilerplate](https://github.com/h5bp/html5-boilerplate), as always, always grateful
 - [nyamsprod](https://github.com/nyamsprod) & [The League of Extraordinary Packages](https://period.thephpleague.com/)
+
+![Example calendar image, 2020](minimal-calendar-2020-example.png "Example calendar image, 2020")
