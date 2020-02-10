@@ -1,4 +1,4 @@
-# A minimal-calendar print-optimised layout generator
+# A minimal calendar, print-optimised layout generator
 Print-optimised minimal calendar layout for any year. Run on any given day of the year, will produce an HTML page with a full year calendar presented in a minimal layout, optimised and ready for printing.
 
 Multiple ISO 216 paper sizes including: A0, A1, A2, A3 & A4.
