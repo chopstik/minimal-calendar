@@ -1,0 +1,5 @@
+{
+    "require": {
+        "league/period": "^4.9"
+    }
+}
