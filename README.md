@@ -8,13 +8,17 @@ Multiple ISO 216 paper sizes including: A0, A1, A2, A3 & A4.
 
 # Installation
 ```bash
-composer install
+$ git clone git@github.com:chopstik/minimal-calendar.git
+$ cd ./minimal-calendar
+$ composer install
 ```
+
+Then visit `http://localhost/minimal-calendar/` or the location of your cloned repo.
 
 # Configuring size/style
 To generate different ISO 216 page sizes, provide a query string value 0 ~ 4 corresponding to the desired output print size. Defaults to A4. This query string would produce a layout ready for output to A3:
 ```html
-index.php?size=3
+http://localhost/minimal-calendar/index.php?size=3
 ```
 
 Adjust the typeface in the `<head>` tag in `index.php` as required to any available font, local or remote:
