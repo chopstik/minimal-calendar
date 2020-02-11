@@ -2,10 +2,15 @@
 /**
  * Minimal Calendar
  *
- * Based on an idea by @nickolaspeter
- * https://www.kickstarter.com/projects/nickolaspeter/a-hyper-minimal-calendar-for-2020
+ * Print-optimised minimal calendar layout for any year. Run on any given day of the year,
+ * will produce an HTML page with a full year calendar presented in a minimal layout,
+ * optimised and ready for printing.
  *
- * Copyright (c) 2020. Chopstik Internet |/ https://chopstik.net
+ * Based on an idea by @nickolaspeter
+ * @link https://www.kickstarter.com/projects/nickolaspeter/a-hyper-minimal-calendar-for-2020
+ *
+ * @author @the_chopstik |/ https://chopstik.net
+ * @license http://www.gnu.org/copyleft/lesser.html GNU-LGPL v3 (see LICENSE.TXT)
  *
  */
 
@@ -163,6 +168,6 @@ $baseFontSizes = [
     </tbody>
 </table>
 <div class="minimal-calendar year-wrapper"><span class="year"><?= $day->format('y') ?></span></div>
-<div class="minimal-calendar credit-wrapper"><span class="credit">&copy; <?= $day->format('Y') ?> chopstik |/ https://github.com/chopstik/minimal-calendar</span></div>
+<div class="minimal-calendar credit-wrapper"><span class="credit">made by <a href="https://twitter.com/the_chopstik">@the_chopstik</a> |/ <a href="https://github.com/chopstik/minimal-calendar">https://github.com/chopstik/minimal-calendar</a></span></div>
 </body>
 </html>
